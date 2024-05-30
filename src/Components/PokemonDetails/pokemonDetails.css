@@ -1,0 +1,10 @@
+.pokemondetailsWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 30vh;
+    width: 30vh;
+}

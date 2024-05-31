@@ -1,7 +1,7 @@
 import axios from "axios";
-import './pokemonDetails.css'
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
+import './pokemonDetails.css'
 function PokemonDetails(){
     const {id} = useParams();
     const [pokemon ,setPokemon] = useState({});
